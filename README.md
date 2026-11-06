@@ -38,10 +38,8 @@ curl ifconfig.io
 Із кореня репозиторію виконати:
 
 ```bash
-python3 generate_homework.py --surname ivanenko --student "Іваненко Іван Іванович"
+python3 ПІБ_homework.py --surname  --student "ПІБ"
 ```
-
-Замінити `ivanenko` та ПІБ на власні дані. Скрипт збере інформацію з **того Linux-середовища, де його запущено**, і збереже файл:
 
 ```text
 homework/module1/ivanenko_homework_1.md
